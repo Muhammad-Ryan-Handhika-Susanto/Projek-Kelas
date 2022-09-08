@@ -1,0 +1,57 @@
+/* Content Start */
+
+.judul h1 {
+    margin: 0 50% 0 44%;
+    line-height: 70px;
+    float: left;
+    color: var(--text-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.border {
+    position: relative;
+    text-align: center;
+    margin: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.border::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 310%;
+    background: linear-gradient(#ff0000 , 	#0000FF);
+    animation: animate 3s linear infinite;
+}
+
+.border::after {
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background: #0e1538;
+    border-radius: 20px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.border h4 {
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 10;
+}
+
+/* Content End */

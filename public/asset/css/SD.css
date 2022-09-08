@@ -1,0 +1,38 @@
+.judul .SD {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500px;
+    color: var(--text-color);
+    padding: 12px 40px;
+}
+
+.judul i {
+    font-size: 50px;
+    position: relative;
+    bottom: 55px;
+    margin-right: 20px;
+    float: right;
+    color: var(--text-color);
+}
+
+.judul i:hover {
+    animation: tada;
+    animation-duration: 1s;
+}
+
+.data {
+    width: 95%;
+    height: 530px;
+    background: lightpink;
+    border-radius: 10px;
+    margin: 35px;
+    padding: 20px;
+}
+
+.data table, th, td {
+    border: 1px solid black;
+  }
+
+
+
+
